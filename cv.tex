@@ -1,0 +1,168 @@
+\documentclass{article}
+\linespread{1}
+\usepackage{geometry}
+\geometry{
+ left=2in,
+ right=1in,
+ top=1in,
+ bottom=1in
+ }
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{fontspec} 
+\usepackage{verse} 
+\usepackage[square,sort,comma,numbers]{natbib} 
+\usepackage{titlesec}
+\usepackage{bibentry} 
+\usepackage[urlcolor=Blue,colorlinks=true]{hyperref}
+\usepackage[multiple]{footmisc}
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\widowpenalty=10000
+\clubpenalty=10000
+
+\nobibliography* 
+
+\newcommand{\stopstanza}{\\[\normalbaselineskip]}
+
+\makeatletter
+\def\subject#1{\gdef\@subject{#1}}
+\def\memonumber#1{\gdef\@memonumber{#1}}
+\def\@subject{\@latex@warning@no@line{No \noexpand\subject given}}
+
+\renewcommand\maketitle{\par
+  \begingroup
+  \hskip -12em{\Huge \@author \par}
+  \vskip 2em%
+  \hskip -12em{
+    \authoremail
+\par}%
+  \hskip -12em{
+    \authorwww
+\par}%
+\vskip 1em%
+  \hskip -12em{
+    \today
+\par}%
+    \vskip 6.5em%
+  \endgroup
+}
+
+\makeatother
+
+\setromanfont{Hoefler Text}
+\setsansfont{Optima}
+
+\titleformat{\section}[leftmargin] 
+{\bfseries} 
+{}{0em}{} 
+\titlespacing{\section} 
+{4.5pc}{1.5ex plus .1ex minus .2ex}{3pc}
+
+
+\titleformat{\subsection}
+{\bfseries}{}{0em}{}
+
+\setlength{\itemsep}{0pt}%
+\setlength{\topsep}{0pt}%
+\setlength{\parskip}{0pt}%
+
+\title{Curriculum Vitae}
+
+\author{\textcolor{BrickRed}{Yu-Shiang Huang}}
+\newcommand{\authoremail}[0]{F09946004@ntu.edu.tw}
+\newcommand{\authorwww}[0]{https://www.linkedin.com/in/yu-shiang-huang-309108126/}
+\begin{document}
+\maketitle
+\section{Summary}\noindent
+I am a Ph.D. candidate in Data Science at National Taiwan University. My research interests include retrieval-enhanced machine learning, natural language processing, and recommender systems, with a particular focus on their applications in the financial domain.\\
+
+\section{Education}\noindent\begin{tabbing}
+\hspace{4em}\= \kill
+PhD\>\textbf{National Taiwan University}\` Since 2022\\
+\>Data Science\\
+\\
+MS\>\textbf{National Taiwan University}\` Admitted to the Ph.D. program in September 2022.\\
+\>Data Science\\
+\\
+BS\>\textbf{National Taiwan University}\` 2020\\
+\>Accounting\\
+\end{tabbing}
+
+
+\section{Positions}
+\noindent\textbf{Academia Sinica}\hfill Graduate Student Researcher\\
+Taipei, Taiwan\hfill September 2020-present\\\\
+- NLP in Finance Research: Designed task formulation and an end-to-end retrieval-augmented pipeline to extract important signals from financial reports.\\ - Recommendation Research: Designed experiments to validate the effectiveness of a new loss function compared to state-of-the-art (SOTA) recommendation methods.\\ - Recommendation Industry Cooperation: Researched multi-behavior algorithms for banner recommendation systems and deployed the developed model in a real-world system with millions of users.\\ - NLP Research: Analyzed the characteristics of financial annual reports and designed a new algorithm to classify sentence relations based on these findings. Leveraging the results, we conducted transfer learning in a self-supervised setting, and our paper was accepted by ACL 2023.\\ - NLP Industry Cooperation: Fine-tuned BERT with a Siamese network and contrastive loss to obtain sentence embeddings in legal data, building a retrieval system aimed at finding the most relevant internal regulations.\\
+
+\noindent\textbf{National Taiwan University}\hfill Head Teaching Assistant, CSIE5043 Machine Learning\\
+Taipei, Taiwan\hfill September 2023-January 2024\\\\
+- Teaching Assistance: Led a team of 10 to assist in lecturing Machine Learning at National Taiwan University.\\ - Project Design: Designed the final project and maintained the data streaming pipeline.\\ - Homework Validation: Validated the homework problem sets related to machine learning theory.\\
+
+\noindent\textbf{National Taiwan University}\hfill Teaching Assistant, CSIE5043 Machine Learning\\
+Taipei, Taiwan\hfill September 2021-January 2022\\\\
+- Final Project Design: Created an in-class competition for a 300-student course by adding noise to an open dataset and testing competition metrics with various machine learning models.\\ - Assignment Validation and Consulting: Validated assignments to ensure accuracy in problem sets and provided answers to machine learning theory-related questions during TA hours.\\
+
+\noindent\textbf{National Taiwan University}\hfill Teaching Assistant, GENEDU5010 Programming and Web Scraping\\
+Taipei, Taiwan\hfill Febuary 2021-June 2021\\\\
+Instructional Support: Possessed a background in designing programming assignments and offering instructional support, allowing me to contribute effectively to teaching endeavors.\\
+
+\noindent\textbf{beBit Inc.}\hfill Part-time Quantitative Analyst\\
+Taipei, Taiwan\hfill October 2020-March 2021\\\\
+- Survey Data Analysis: Collaborated with a qualitative research team and applied statistical methods to verify business hypotheses and identify key factors in the customer experience journey.\\ - Methodology Establishment: Improved quantitative analysis methodology based on research papers and technical blogs, enhancing the persuasiveness of the final deliverable.\\
+
+\noindent\textbf{BluePlanet Technology}\hfill Project Assistant\\
+Taipei, Taiwan\hfill November 2019-Febuary 2021\\\\
+- Product Mechanism Design: Surveyed literature related to accounting and regulation to support the product mechanism design, resulting in the successful launch of the product in January 2021.\\ - Communication: Bridged the gap between the finance research group and the product management team by facilitating communication and recording discussion details during meetings.\\
+
+\noindent\textbf{National Taiwan University}\hfill Part-time Research Assistant\\
+Taipei, Taiwan\hfill July 2020-September 2020\\\\
+- Website Development at Department of Economics: Utilized Python to create a website for an economics experiment based on a research paper in experimental economics, catering to a participant pool of 100 individuals.\\
+
+\noindent\textbf{Academia Sinica}\hfill Intern\\
+Taipei, Taiwan\hfill July 2019-June 2020\\\\
+- Publication: Completed and submitted the work ``NFinBERT: A Number-Aware Language Model for Financial Disclosures'' to SwissText 2021, which has been accepted.\\ - Textual Data Analysis: Implemented machine learning models to conduct experiments on the relationship between financial report text and financial measures.\\ - Experimental Data Preparation: Collected SEC 10-K filings from 1993 to 2018 and performed data cleansing on the corpus through shell scripting, making the 330 GB data available for further research.\\
+
+\noindent\textbf{National Taiwan University}\hfill Teaching Material Assistant\\
+Taipei, Taiwan\hfill November 2018-January 2019\\\\
+- Teaching Material Creation at Department of Electronic Engineering: Self-studied advanced topics about kernel tricks in Support Vector Machines (SVM) in machine learning. Developed teaching slides with explainable examples beyond textbooks, aimed at making the theorems easier to understand.\\
+
+
+
+
+\setlength{\leftmargini}{0em}
+\section{Publications}
+\vspace{\baselineskip}
+\noindent\textbf{Under Review}\\
+\begin{verse}
+\bibentry{huang2024dagcf}
+\end{verse}
+\vspace{\baselineskip}
+\noindent\textbf{Conference Papers}\\
+\begin{verse}
+\bibentry{ju2023compare}
+\end{verse}
+\begin{verse}
+\bibentry{huang2023fish}
+\end{verse}
+\begin{verse}
+\bibentry{lin2021nfinbert}
+\end{verse}
+\vspace{1em}
+\section{Service}
+\noindent\textbf{Organizational Leadership}\\
+ccClub, a Python Community, Director and Teaching Assitant, 2018-2024\\
+
+
+
+
+
+
+\section{Skills}\noindent Extensive programming Python experience on machine learning projects in Linux environment. Extensive experience with machine learning related packages like pytorch, transformers, langchain, sklearn, numpy, pandas and matplotlib. English fluency.
+
+
+
+\section{References}\noindent \emph{Available on request.}
+\bibliographystyle{plain}
+\nobibliography{yshuang}
+\end{document}

@@ -79,11 +79,11 @@ def printSupervision(X):
             print("%s, %s, %d\\\\"%(x["name"],x["school"],x["year"]))
         print("\n\n")
 
-def printPublications(X,Y):
+def printPublications(Y): # X
     print("\\setlength{\\leftmargini}{0em}")
     print("\\section{Publications}")
     
-    printBibliometrics(X)
+    # printBibliometrics(X)
     printBibliography(Y)
     
 def printBibliometrics(X):
@@ -254,7 +254,8 @@ with open(sys.argv[1],"r") as fp:
         printEmployment(data["employment"])
     if "academic-affiliation" in data:
         printAcademicAffiliations(data["academic-affiliation"])
-    printPublications(data["bibliometrics"],data["bibliography"])
+    # printPublications(data["bibliometrics"],data["bibliography"])
+    printPublications(data["bibliography"])
     if ("teaching" in data) or ("tutorials" in data["bibliography"]):
         print("\\section{Teaching}")
         if ("teaching" in data):

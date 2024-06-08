@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cv.aux
+The style file: plain.bst
+Database file #1: yshuang.bib
+Warning--empty journal in huang2024dagcf
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            518 strings with 4977 characters,
+and the built_in function-call counts, 1854 in all, are:
+= -- 170
+> -- 112
+< -- 2
++ -- 45
+- -- 40
+* -- 129
+:= -- 297
+add.period$ -- 13
+call.type$ -- 4
+change.case$ -- 32
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 72
+empty$ -- 131
+format.name$ -- 40
+if$ -- 391
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 24
+num.names$ -- 8
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 28
+quote$ -- 0
+skip$ -- 57
+stack$ -- 0
+substring$ -- 93
+swap$ -- 26
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 1
+while$ -- 14
+width$ -- 5
+write$ -- 45
+(There was 1 warning)

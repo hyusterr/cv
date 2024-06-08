@@ -1,794 +1,151 @@
 {
-	"given-name":"Fernando",
-	"sur-name":"Diaz",
-	"email":"diazf@acm.org",
-	"www":"http://841.io",
-	"bib":"fdiaz",
-	"summary":"I conduct and lead interdisciplinary research on the design and evaluation of search engines and recommender systems, including their relationship to fairness, accountability, transparency, and ethics (FATE).",
+	"given-name":"Yu-Shiang",
+	"sur-name":"Huang",
+	"email":"F09946004@ntu.edu.tw",
+	"www":"https://www.linkedin.com/in/yu-shiang-huang-309108126/",
+	"bib":"yshuang",
+	"summary":"I am a Ph.D. candidate in Data Science at National Taiwan University. My research interests include retrieval-enhanced machine learning, natural language processing, and recommender systems, with a particular focus on their applications in the financial domain.",
 	"degrees":[
 		{
 			"degree":"PhD",
-			"school":"University of Massachusetts Amherst",
-			"discipline":"Computer Science",
-			"year":2008,
-			"thesis":"Regularizing Query-Based Retrieval Scores",
-			"readers":[
-				"James Allan",
-				"W. Bruce Croft",
-				"Sridhar Mahadevan",
-				"John Staudenmayer"
-			]
+			"school":"National Taiwan University",
+			"discipline":"Data Science",
+			"year": "Since 2022"
 		},
 		{
 			"degree":"MS",
-			"school":"University of Massachusetts Amherst",
-			"discipline":"Computer Science",
-			"year":2004,
-			"thesis":"Browsing-Based User Language Models",
-			"readers":[
-				"James Allan"
-			]
-		},
+			"school":"National Taiwan University",
+			"discipline":"Data Science",
+			"year": "Admitted to the Ph.D. program in September 2022."
+        },
 		{
 			"degree":"BS",
-			"school":"University of Michigan Ann Arbor",
-			"discipline":"Computer Science",
-			"year":1998
-		}
-	],
-	"academic-affiliation":[
-		{
-			"title":"Adjunct Professor",
-			"school":"McGill University",
-			"location":"Montréal, QC",
-			"start-year":2019,
-			"start-month":"January"
-		},
-		{
-			"title":"Adjunct Professor",
-			"school":"NYU Courant Institute of Mathematical Sciences",
-			"location":"New York, NY",
-			"start-year":2013,
-			"start-month":"January",
-			"end-year":2016,
-			"end-month":"December"
-		},
-		{
-			"title":"Adjunct Professor",
-			"school":"NYU Tandon School of Engineering",
-			"location":"New York, NY",
-			"start-year":2011,
-			"start-month":"January",
-			"end-year":2011,
-			"end-month":"May"
+			"school":"National Taiwan University",
+			"discipline":"Accounting",
+			"year": 2020
 		}
 	],
 	"employment":[
 		{
-			"title":"Staff Research Scientist",
-			"affiliation":"Google Research",
-			"location":"Montréal, QC",
+			"title":"Graduate Student Researcher",
+			"affiliation":"Academia Sinica",
+			"location":"Taipei, Taiwan",
 			"start-year":2020,
 			"start-month":"September",
-			"description":"I conduct core research in the evaluation and design of search and recommendation systems, including fairness, accountability, transparency, and ethics of production systems.  Outside of my core responsibilities, I continue to grow a multidisciplinary research program around the broader impacts of music creation, recommendation, consumption, and their longer terms effects."
+			"description":"- NLP in Finance Research: Designed task formulation and an end-to-end retrieval-augmented pipeline to extract important signals from financial reports.\\\\ - Recommendation Research: Designed experiments to validate the effectiveness of a new loss function compared to state-of-the-art (SOTA) recommendation methods.\\\\ - Recommendation Industry Cooperation: Researched multi-behavior algorithms for banner recommendation systems and deployed the developed model in a real-world system with millions of users.\\\\ - NLP Research: Analyzed the characteristics of financial annual reports and designed a new algorithm to classify sentence relations based on these findings. Leveraging the results, we conducted transfer learning in a self-supervised setting, and our paper was accepted by ACL 2023.\\\\ - NLP Industry Cooperation: Fine-tuned BERT with a Siamese network and contrastive loss to obtain sentence embeddings in legal data, building a retrieval system aimed at finding the most relevant internal regulations."
 		},		
 		{
-			"title":"Assistant Research Director",
-			"affiliation":"Microsoft Research",
-			"location":"Montréal, QC",
-			"start-year":2018,
-			"start-month":"June",
+			"title":"Head Teaching Assistant, CSIE5043 Machine Learning",
+			"affiliation":"National Taiwan University",
+			"location":"Taipei, Taiwan",
+			"start-year":2023,
+			"start-month":"September",
+			"end-year":2024,
+			"end-month":"January",
+			"description":"- Teaching Assistance: Led a team of 10 to assist in lecturing Machine Learning at National Taiwan University.\\\\ - Project Design: Designed the final project and maintained the data streaming pipeline.\\\\ - Homework Validation: Validated the homework problem sets related to machine learning theory."
+		},		
+		{
+			"title":"Teaching Assistant, CSIE5043 Machine Learning",
+			"affiliation":"National Taiwan University",
+			"location":"Taipei, Taiwan",
+			"start-year":2021,
+			"start-month":"September",
+			"end-year":2022,
+			"end-month":"January",
+			"description":"- Final Project Design: Created an in-class competition for a 300-student course by adding noise to an open dataset and testing competition metrics with various machine learning models.\\\\ - Assignment Validation and Consulting: Validated assignments to ensure accuracy in problem sets and provided answers to machine learning theory-related questions during TA hours."
+		},		
+		{
+			"title":"Teaching Assistant, GENEDU5010 Programming and Web Scraping",
+			"affiliation":"National Taiwan University",
+			"location":"Taipei, Taiwan",
+			"start-year":2021,
+			"start-month":"Febuary",
+			"end-year":2021,
+			"end-month":"June",
+			"description":"Instructional Support: Possessed a background in designing programming assignments and offering instructional support, allowing me to contribute effectively to teaching endeavors."
+		},		
+		{
+			"title":"Part-time Quantitative Analyst",
+			"affiliation":"beBit Inc.",
+			"location":"Taipei, Taiwan",
+			"start-year":2020,
+			"start-month":"October",
+			"end-year":2021,
+			"end-month":"March",
+			"description":"- Survey Data Analysis: Collaborated with a qualitative research team and applied statistical methods to verify business hypotheses and identify key factors in the customer experience journey.\\\\ - Methodology Establishment: Improved quantitative analysis methodology based on research papers and technical blogs, enhancing the persuasiveness of the final deliverable."
+		},		
+		{
+			"title":"Project Assistant",
+			"affiliation":"BluePlanet Technology",
+			"location":"Taipei, Taiwan",
+			"start-year":2019,
+			"start-month":"November",
+			"end-year":2021,
+			"end-month":"Febuary",
+			"description":"- Product Mechanism Design: Surveyed literature related to accounting and regulation to support the product mechanism design, resulting in the successful launch of the product in January 2021.\\\\ - Communication: Bridged the gap between the finance research group and the product management team by facilitating communication and recording discussion details during meetings."
+		},		
+		{
+			"title":"Part-time Research Assistant",
+			"affiliation":"National Taiwan University",
+			"location":"Taipei, Taiwan",
+			"start-year":2020,
+			"start-month":"July",
 			"end-year":2020,
-			"end-month":"July",
-			"description":"I assisted with the management of twenty five researchers focused on natural language processing, machine learning, and the societal impacts of artificial intelligence.  I directly led a multidisciplinary research group focused on fairness, accountability, transparency, and ethics (FATE) of artificial intelligence systems.  The group externally published basic research and actively collaborated with engineering teams in Microsoft.  In addition, I maintained an active research agenda in core information retrieval and its application to production systems such as bing.  Moreover, I started a research program around the broader impacts of music creation, recommendation, consumption, and their longer terms effects."
-		},		
-		{
-			"title":"Director of Research",
-			"affiliation":"Spotify",
-			"location":"New York, NY",
-			"start-year":2017,
-			"start-month":"March",
-			"end-year":2018,
-			"end-month":"May",
-			"description":"I led the applied research organization of twenty researchers focused on search, recommendation, metrics, and evaluation.  I helped define the company's research approach and culture, including how it interacted internally with product teams and externally with the academic community.  In addition, I was an active member of the recommendations leadership team, involved in strategic planning for a two year product road map."
-		},		
-		{
-			"title":"Senior Researcher",
-			"affiliation":"Microsoft Research",
-			"location":"New York, NY",
-			"start-year":2012,
-			"start-month":"May",
-			"end-year":2017,
-			"end-month":"March",
-			"description":"I led and participated in information retrieval research projects covering crisis informatics,  attention modeling, fairness in machine learning, text summarization, and deep learning for search.  These themes included extensive collaboration internally with product groups and externally with academic institutions. "
-		},		
-		{
-			"title":"Senior Research Scientist",
-			"affiliation":"Yahoo! Research",
-			"location":"New York, NY",
-			"start-year":2008,
-			"start-month":"January",
-			"end-year":2012,
-			"end-month":"March",
-			"description":"I led and participated in information retrieval research projects including federated search, time-sensitive web search, match-making systems, multi-document summarization, and modeling user mouse behavior.  My role balanced developing production code, technology transfer from research to applied research and engineering groups, and presentation of research results to the wider research community. "
-		},		
-		{
-			"title":"Visiting Fellow",
-			"affiliation":"Institute for Pure and Applied Mathematics",
-			"location":"Los Angeles, CA",
-			"start-year":2007,
-			"start-month":"September",
-			"end-year":2007,
-			"end-month":"December",
-			"description":"I was a visiting fellow at UCLA for the program in ``Mathematics of Knowledge and Search Engines''."
-		},		
-		{
-			"title":"Research Assistant",
-			"affiliation":"University of Massachusetts",
-			"location":"Amherst, MA",
-			"start-year":2001,
-			"start-month":"September",
-			"end-year":2007,
-			"end-month":"August",
-			"description":"I conducted dissertation research focused on machine learning approaches to information retrieval under the supervision of James Allan."
+			"end-month":"September",
+			"description":"- Website Development at Department of Economics: Utilized Python to create a website for an economics experiment based on a research paper in experimental economics, catering to a participant pool of 100 individuals."
 		},		
 		{
 			"title":"Intern",
-			"affiliation":"Overture Research",
-			"location":"Pasadena, CA",
-			"start-year":2003,
-			"start-month":"June",
-			"end-year":2003,
-			"end-month":"December",
-			"description":"I collaborated with Dr. Rosie Jones to develop tools for the analysis and classification of search queries into temporal categories."
+			"affiliation":"Academia Sinica",
+			"location":"Taipei, Taiwan",
+			"start-year":2019,
+			"start-month":"July",
+			"end-year":2020,
+			"end-month":"June",
+			"description":"- Publication: Completed and submitted the work ``NFinBERT: A Number-Aware Language Model for Financial Disclosures'' to SwissText 2021, which has been accepted.\\\\ - Textual Data Analysis: Implemented machine learning models to conduct experiments on the relationship between financial report text and financial measures.\\\\ - Experimental Data Preparation: Collected SEC 10-K filings from 1993 to 2018 and performed data cleansing on the corpus through shell scripting, making the 330 GB data available for further research."
 		},		
 		{
-			"title":"Intern",
-			"affiliation":"Sony Computer Science Laboratories",
-			"location":"Tokyo, Japan",
-			"start-year":2001,
-			"start-month":"June",
-			"end-year":2001,
-			"end-month":"August",
-			"description":"As part of participation in the NSF Summer Institute in Japan, I worked with Dr. Hitoshi Iida and Dr. Koiti Hasida of Sony Computer Science Laboratories on the construction of a dialog-based information retrieval system."
-		},		
-		{
-			"title":"Research Assistant",
-			"affiliation":"University of Massachusetts",
-			"location":"Amherst, MA",
-			"start-year":2000,
-			"start-month":"September",
-			"end-year":2001,
-			"end-month":"May",
-			"description":"I collaborated with Professors Victor Lesser and Beverly Woolf on a project which leveraged information retrieval techniques in a distributed educational system. We developed a system to infer symbolic and planning primitives from statistical text analysis."
-		},		
-		{
-			"title":"Research Assistant",
-			"affiliation":"Bell \\& Howell Information and Learning",
-			"location":"Ann Arbor, MI",
-			"start-year":1999,
-			"start-month":"May",
-			"end-year":2000,
-			"end-month":"August",
-			"description":"I worked on the implementation of information retrieval research in a real world search system. Tasks included system design and engineering and statistical evaluation of system robustness."
+			"title":"Teaching Material Assistant",
+			"affiliation":"National Taiwan University",
+			"location":"Taipei, Taiwan",
+			"start-year":2018,
+			"start-month":"November",
+			"end-year":2019,
+			"end-month":"January",
+			"description":"- Teaching Material Creation at Department of Electronic Engineering: Self-studied advanced topics about kernel tricks in Support Vector Machines (SVM) in machine learning. Developed teaching slides with explainable examples beyond textbooks, aimed at making the theorems easier to understand."
 		}
 	],
-	"teaching":[
-		{
-			"title":"Web Search Engines",
-			"school":"New York University (Courant)",
-			"semesters":["2013-2016"],
-			"description":"Co-instructed (with Cong Yu) a graduate level course on web search engines.  Classes consisted of lectures with evaluation based on homeworks, exams, and a final project. I presented half of the lectures.  Class sizes ranged from thirty to fifty."
-		},
-		{
-			"title":"Web Search",
-			"school":"Asian Summer School in Information Access",
-			"semesters":["Summer 2013"],
-			"description":"Graduate level lecture on web search engines.  Class size was 63 students. "
-		},
-		{
-			"title":"Experimental Design for Information Systems",
-			"school":"University of Trento",
-			"semesters":["Summer 2012"],
-			"description":"Co-instructed (with Cong Yu) a graduate level course on information retrieval and data mining.  Classes included a combination of lectures and paper discussion. I presented half of the lectures.  Class size was 20 students."
-		},
-		{
-			"title":"Web Search Engines",
-			"school":"New York University (Tandon)",
-			"semesters":["Spring 2011"],
-			"description":"Co-instructed (with Cong Yu) a graduate level seminar on advanced information retrieval.  Classes included a combination of lectures and paper discussion.  I presented half of the lectures.  Class size was 10 students."
-		},
-		{
-			"title":"Information Retrieval",
-			"school":"University of Massachusetts Amherst",
-			"semesters":["Fall 2006"],
-			"description":"Prepared slides and provided lectures for a graduate-level information retrieval course. Instructor: Professor James Allan."
-		},
-		{
-			"title":"Applied Information Theory",
-			"school":"University of Massachusetts Amherst",
-			"semesters":["Fall 2006"],
-			"description":"Provided grading support for a graduate-level information theory course. Instructor: Professor Erik Learned-Miller."
-		},
-		{
-			"title":"Databases",
-			"school":"University of Massachusetts Amherst",
-			"semesters":["Spring 2006"],
-			"description":"Provided teaching assistance for a graduate-level database course. This included grading home works, holding office hours, and maintaining a course web page. Instructors: Professors Yanlei Diao and Gerome Miklau."
-		}
-	],
-	"supervision":{
-		"interns":[
-			{
-				"name":"Jaime Arguello",
-				"year":[
-					2009,
-					2010
-				],
-				"title":"Associate Professor",
-				"affiliation":"University of North Carolina Chapel Hill"				
-			},
-			{
-				"name":"Ahmed Hassan",
-				"year":[
-					2009
-				],
-				"title":"Senior Principal Research Manager",
-				"affiliation":"Microsoft Research"				
-			},
-			{
-				"name":"Jangwon Seo",
-				"year":[
-					2010
-				],
-				"title":"Staff Software Engineer",
-				"affiliation":"Google"				
-			},
-			{
-				"name":"Qi Guo",
-				"year":[
-					2011
-				],
-				"title":"Software Engineer",
-				"affiliation":"Meta"				
-			},
-			{
-				"name":"Matthew Ekstrand-Abeug",
-				"year":[
-					2013
-				],
-				"title":"Software Engineer",
-				"affiliation":"Google"				
-			},
-			{
-				"name":"Pavel Metrikov",
-				"year":[
-					2013
-				],
-				"title":"Data Scientist",
-				"affiliation":"Microsoft"				
-			},
-			{
-				"name":"Teresa Bracamonte",
-				"year":[
-					2013
-				],
-				"title":"Developer",
-				"affiliation":"Fintual"				
-			},
-			{
-				"name":"Ioannis Paparrizos",
-				"year":[
-					2014
-				],
-				"title":"Assistant Professor",
-				"affiliation":"Ohio State University"				
-			},
-			{
-				"name":"Chris Kedzie",
-				"year":[
-					2015
-				],
-				"title":"Senior Researcher",
-				"affiliation":"Microsoft Semantic Machines"				
-			},
-			{
-				"name":"David Abel",
-				"year":[
-					2015
-				],
-				"title":"Research Scientist",
-				"affiliation":"DeepMind"				
-			},
-			{
-				"name":"Rishabh Mehrotra",
-				"year":[
-					2016
-				],
-				"title":"Director of Machine Learning",
-				"affiliation":"ShareChat"				
-			},
-			{
-				"name":"Cristina Garbacea",
-				"year":[
-					2016
-				],
-				"title":"PhD Student",
-				"affiliation":"University of Michigan"				
-			},
-			{
-				"name":"Jesse Anderton",
-				"year":[
-					2017
-				],
-				"title":"Research Scientist",
-				"affiliation":"Spotify"				
-			},
-			{
-				"name":"Daniel Cohen",
-				"year":[
-					2019
-				],
-				"title":"Research Scientist",
-				"affiliation":"Dataminr"				
-			},
-			{
-				"name":"Ashudeep Singh",
-				"year":[
-					2019
-				],
-				"title":"Research Scientist",
-				"affiliation":"Pinterest"				
-			},
-			{
-				"name":"Maria Antoniak",
-				"year":[
-					2020
-				],
-				"title":"Young Investigator",
-				"affiliation":"Allen Institute for AI"				
-			},
-			{
-				"name":"Esther Rolf",
-				"year":[
-					2021
-				],
-				"title":"Postdoctoral Scholar",
-				"affiliation":"Harvard University"				
-			},
-			{
-				"name":"Negar Arabzadeh",
-				"year":[
-					2022
-				],
-				"title":"PhD Student",
-				"affiliation":"University of Waterloo"				
-			}
-		],
-		"reader":[
-			{
-				"name":"Jaime Arguello",
-				"year":2011,
-				"school":"Carnegie Mellon University"
-			},
-			{
-				"name":"Maria-Hendrike Peetz",
-				"year":2015,
-				"school":"University of Amsterdam"
-			},			
-			{
-				"name":"Matthew Ekstrand-Abeug",
-				"year":2017,
-				"school":"Northeastern University"
-			},			
-			{
-				"name":"Jesse Anderton",
-				"year":2019,
-				"school":"Northeastern University"
-			},			
-			{
-				"name":"Rodrigo Nogueira",
-				"year":2019,
-				"school":"New York University"
-			}
-		]
-	},
-	"bibliometrics":{
-		"acm":{
-			"id":"81551748956",
-			"articles":84,
-			"citations":2644,
-			"h":25
-		},
-		"scopus":{
-			"id":"55605195900",
-			"articles":95,
-			"citations":4177,
-			"h":32
-		},
-		"google-scholar":{
-			"id":"212SLn0AAAAJ",
-			"articles":123,
-			"citations":8618,
-			"h":44
-		},
-		"aminer":{
-			"id":"5606955945cedb33968d9813",
-			"articles":129,
-			"citations":6503,
-			"h":40
-		},
-		"allen":{
-			"id":"Fernando-Diaz/145472333",
-			"articles":138,
-			"citations":7293,
-			"h":42
-		}
-	},
 	"bibliography":{
-		"theses":[
-			"diaz:thesis"
-		],
-		"books":[
-			"ekstrand:fair-ia-survey"
-		],
-		"book-chapters":[
-			"diaz:vertical-chapter"
-		],
-		"journal-articles":[
-			"wu:fairmoop",
-			"baym:music-metrics",
-			"born:cifar",
-			"SWIRL2018",
-			"olteanu:survey",
-			"white:result-prefetching-tois",
-			"diaz:worst-practices",
-			"rothschild:twitter-panel",
-			"imran:survey2015",
-			"diaz:forum2014",
-			"goldstein:ad-distract-journal",
-			"hemant:donations",
-			"tois:elad",
-			"tist:twitter",
-			"Diaz:Regularizing-query-based-retrieval",
-			"fdiaz:temporal-journal"			
-		],
 		"under-review":[
+            "huang2024dagcf"
 		],
 		"conference-papers":[
-			"ferraro:commonality",
-			"diaz:rpp",
-			"zamani:reml",
-			"wu:jmef",
-			"radlinski:strand",
-			"shanmugam:dm",
-			"li:exposing-queries",
-			"srinivasan:artsheets",
-			"omer:minimal-fairness-collection",
-			"arguello:tot",
-			"robertson:smart-reply",
-			"diaz:expexp",
-			"olteanu:autosuggest",
-			"zamani:clarification",
-			"biega:toward-dm",
-			"mehrotra:fair-marketplace",
-			"garcia-gathright:sigir2018",
-			"mehrotra:demographics-of-search",
-			"alonso:timelines-websci",
-			"mitra:ndrm",
-			"ekstrand:ts-eval",
-			"goel:twitter-language-change",
-			"diaz:altr",
-			"diaz:local-w2v",
-			"diaz:sigir2016",
-			"kedzie:ijcai2016",
-			"diaz:pqr",
-			"arguello:ecir2016",
-			"diaz:crm",
-			"kedzie:acl2015",
-			"metrikov:image-ads",
-			"icwsm2014:crisislex",
-			"Shokouhi:sigir2014",
-			"golbus:www2014",
-			"fdiaz:robust-mouse-tracking-models",
-			"imran:iscram2013",
-			"qi:temporal-summarization",
-			"arguello:fedltr",
-			"yomtov:detachment",
-			"yomtov:location",
-			"seo:quicklinks",
-			"arguello:fedeval",
-			"bai:mlr-xfer",
-			"diaz:dating",
-			"arguello:vertical-xfer",
-			"dong:twitter-mlr",
-			"dong:y-recency",
-			"arguello:classification-dir",
-			"hassan:geo-newsdd",
-			"arguello:vertical-selection",
-			"diaz:online-vertical-selection",
-			"diaz:online-newsdd",
-			"diaz:rf-regularization",
-			"diaz:xling-regularization",
-			"diaz:lsr-bounds",
-			"diaz:autocorrelation",
-			"diaz:pseudoaligned-corpora",
-			"diaz:ee",
-			"diaz:regularization",
-			"diaz:sigir04",
-			"kelly:users",
-			"diaz:wearables"			
-		],
-		"workshop-papers":[
-			"rolf:data-externalities",
-			"bird:ethics-of-autonomous-experimentation",
-			"abel:geql",
-			"diaz:kdd2014",
-			"imran:www2013",
-			"louis:newsdd-similarity",
-			"hassan:geo-mlr",
-			"umass:robust2005",
-			"umass:hard2005",
-			"umass-hard2004"			
-		],
-		"tutorials":[
-			"clarke:preference-tutorial-2023",
-			"stthomas:kdd2021-tutorial",
-			"diaz:neurips-2020-tutorial",
-			"ekstrand:recsys-tutorial",
-			"ekstrand:sigir-2019-tutorial",
-			"monitor:recsys-tutorial",
-			"crisis-informatics-tutorial",
-			"temporal-dynamics-tutorial",
-			"fedsci-tutorial-2",
-			"fedsci-tutorial"			
-		]
+            "ju2023compare",
+            "huang2023fish",
+            "lin2021nfinbert"
+        ]
 	},
-	"patents":{
-		"granted":[
-			"diaz2012system:1",
-			"diaz:audience-response",
-			"chang2013cross",
-			"jones2013system",
-			"diaz2012system:2",
-			"jones2009system"				
-		],
-		"applied":[
-			"josifovski2013method",
-			"yom2012using"				
-		]
-	},
-	"awards":[
-		{
-			"title":"CIKM Best Paper Nomination",
-			"year":2020
-		},
-		{
-			"title":"CSCW Honorable Mention",
-			"year":2020
-		},
-		{
-			"title":"British Computer Society Karen Sp{\\\"a}rck Jones Award",
-			"year":2017
-		},
-		{
-			"title":"Finalist for Paul E. Green Award, Journal of Marketing Research",
-			"year":2015
-		},
-		{
-			"title":"ISCRAM Best Paper Award",
-			"year":2013
-		},
-		{
-			"title":"SIGIR Best Paper Nomination",
-			"year":2011
-		},
-		{
-			"title":"ECIR Best Student Paper Award",
-			"year":2011
-		},
-		{
-			"title":"SIGIR Best Paper Award",
-			"year":2009
-		},
-		{
-			"title":"WSDM Best Paper Award",
-			"year":2009
-		}
-	],
-	"fellowships":[
-		{
-			"title": "Canada CIFAR AI Chair",
-			"year": 2019
-		},
-		{
-			"title": "UCLA Institute for Pure and Mathematics Postdoctoral Fellow",
-			"year": 2006
-		},
-		{
-			"title": "National Science Foundation Summer Institute in Japan",
-			"year": 2001
-		},
-		{
-			"title": "University of Massachusetts Opportunity Fellowship",
-			"year": 2000
-		}
-	],
+    "award":{
+        "competition":[
+            {
+                "title":"Legal Compliance Special Awards",
+                "description":"Auxiliary System for Duty of Disclosure in Insurance Law: Designed the backend logistics of the system and leveraged modern sentence embedding models to aid in retrieving related cases based on users' queries."
+            }
+        ]
+    },  
 	"service":{
 		"organizational leadership":[
 			{
-				"venue":"SIGIR",
-				"title":"General Co-Chair",
-				"year":[2021]
-			},
-			{
-				"venue":"TREC Fair Ranking Track",
-				"title":"Co-Organizer",
-				"year":[2019,2020]
-			},
-			{
-				"venue":"CIFAR Workshop on AI and the Curation of Culture",
-				"title":"Co-Organizer",
-				"year":[2019]
-			},
-			{
-				"venue":"Strategic Workshop on Information Retrieval in Lorne",
-				"title":"Co-Organizer",
-				"year":[2018,2024]
-			},
-			{
-				"venue":"NeurIPS Workshop on Cultures of AI and AI for Culture",
-				"title":"Co-Organizer",
-				"year":[2022]
-			},
-			{
-				"venue":"CVPR Workshop on Ethical Considerations in Creative applications of Computer Vision",
-				"title":"Co-Organizer",
-				"year":[2022]
-			},
-			{
-				"venue":"NeurIPS Workshop on Algorithmic Fairness through the Lens of Causality and Interpretability",
-				"title":"Co-Organizer",
-				"year":[2020]
-			},
-			{
-				"venue":"Workshop on Social Web for Disaster Management",
-				"title":"Co-Organizer",
-				"year":[2015, 2016]
-			},
-			{
-				"venue":"WSDM",
-				"title":"General Co-Chair",
-				"year":[2014]
-			},
-			{
-				"venue":"TREC Web Track",
-				"title":"Co-Organizer",
-				"year":[2013,2014]
-			},
-			{
-				"venue":"TREC Temporal Summarization Track",
-				"title":"Co-Organizer",
-				"year":[2013,2014]
-			},
-			{
-				"venue":"NTCIR Recipe Search Track",
-				"title":"Co-Organizer",
-				"year":[2014]
-			},
-			{
-				"venue":"SIGIR Workshop on Time-aware Information Access",
-				"title":"Co-Organizer",
-				"year":[2012, 2013, 2014]
-			},
-			{
-				"venue":"SIGIR Workshop on Social Web Search and Mining: Analysis of User Generated Content Under Crisis",
-				"title":"Co-Organizer",
-				"year":[2011]
-			}
-		],
-		"organizational support":[
-			{
-				"venue":"ACM FAccT Steering Committee",
-				"title":"Member",
-				"start-year":2018
-			},
-			{
-				"venue":"ACM Ethics \\& Plagiarism Committee",
-				"title":"Member",
-				"start-year":2022
-			},
-			{
-				"venue":"ACM SIGIR",
-				"title":"Awards Chair",
-				"start-year":2014,
-				"end-year":2016
-			}
-		],
-		"technical expertise":[
-			{
-				"venue":"FAT*",
-				"title":"Program Co-Chair",
-				"year":[2019]
-			},
-			{
-				"venue":"SIGIR",
-				"title":"Perspectives Track Chair",
-				"year":[2021]
-			},
-			{
-				"venue":"SIGIR Forum",
-				"title":"Editor",
-				"year":[2012,2013,2014]
-			},
-			{
-				"venue":"WWW",
-				"title":"Track Chair",
-				"year":[2017]
-			},
-			{
-				"venue":"CIKM",
-				"title":"Vice Chair",
-				"year":[2009]
-			},
-			{
-				"venue":"SIGIR",
-				"title":"Senior Program Committee Member",
-				"year":[2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
-			},
-			{
-				"venue":"WSDM",
-				"title":"Senior Program Committee Member",
-				"year":[2012,2013,2014,2015,2016,2017,2018,2023]
-			},
-			{
-				"venue":"CIKM",
-				"title":"Senior Program Committee Member",
-				"year":[2012]
-			},
-			{
-				"venue":"NeurIPS",
-				"title":"Ethics Reviewer",
-				"year":[2021,2022]
-			},
-			{
-				"venue":"NeurIPS",
-				"title":"Datasets and Benchmarks Reviewer",
-				"year":[2022]
-			},
-			{
-				"venue":"SIGIR",
-				"title":"Perspectives Program Committee Member",
-				"year":[2022]
-			},
-			{
-				"venue":"SIGIR",
-				"title":"Program Committee Member",
-				"year":[2008,2009,2010]
-			},
-			{
-				"venue":"CIKM",
-				"title":"Program Committee Member",
-				"year":[2010,2011,2014]
-			},
-			{
-				"venue":"WSDM",
-				"title":"Program Committee Member",
-				"year":[2010,2011]
-			},
-			{
-				"venue":"WWW",
-				"title":"Program Committee Member",
-				"year":[2011,2012,2013,2014]
+				"venue":"ccClub, a Python Community",
+				"title":"Director and Teaching Assitant",
+				"year":[2018, 2019, 2020, 2021, 2022, 2023, 2024],
+                "description":"Python Data Analysis Workshop: Designed comprehensive materials and delivered engaging lectures on Python for data analysis, emphasizing practical examples, hands-on exercises, and key libraries.\\\\ - Computer Science Study Group: Led a team of 8 to organize a study schedule covering algorithms, object-oriented design, and machine learning for individuals with non-CS backgrounds and basic programming language skills.\\\\ - Programming Study Group: Designed programming assignments and provided technical advice based on students' ideas for their final projects in a 200-person study group.\\\\ - Google Machine Learning Crash Course: Addressed environmental problems and explained machine learning techniques to beginners, achieving an 88% satisfaction rate after the class."
 			}
 		]
-	},
+    },
 	"skills":[
-		"Extensive programming C/C++ experience on Unix platforms.",
-		"Moderate experience with audio programming on iOS.",
-		"Extensive experience with production machine learning environments, including feature generation, model training, and evaluation.",
-		"Experience with pytorch, GNU Scientific Library, Matlab/Octave, R, Python, Perl, Java, and scientific computing in a clustered environment.",
-		"English and Spanish fluency.",
-		"Some French."
+		"Extensive programming Python experience on machine learning projects in Linux environment.",
+		"Extensive experience with machine learning related packages like pytorch, transformers, langchain, sklearn, numpy, pandas and matplotlib.",
+		"English fluency."
 	]
 }

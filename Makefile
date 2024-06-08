@@ -1,5 +1,5 @@
 PROJECT=cv
-BIB=fdiaz
+BIB=yshuang
 all: $(PROJECT).pdf
 	
 
