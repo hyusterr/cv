@@ -1,6 +1,7 @@
 PROJECT=cv
 BIB=yshuang
 all: $(PROJECT).pdf
+# export BIBINPUTS=/Users/yshuang/Documents/cv/bibfile
 	
 
 $(BIB).bib: $(PROJECT).tex Makefile clean-some
