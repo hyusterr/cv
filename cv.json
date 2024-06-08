@@ -16,7 +16,7 @@
 			"degree":"MS",
 			"school":"National Taiwan University",
 			"discipline":"Data Science",
-			"year": "Admitted to the Ph.D. program in September 2022."
+			"year": "Admitted to the Ph.D. program in September 2022"
         },
 		{
 			"degree":"BS",
@@ -144,8 +144,8 @@
 		]
     },
 	"skills":[
-		"Extensive programming Python experience on machine learning projects in Linux environment.",
-		"Extensive experience with machine learning related packages like pytorch, transformers, langchain, sklearn, numpy, pandas and matplotlib.",
+		"Extensive programming Python experience with machine learning projects on Unix platforms.",
+		"Extensive experience with machine learning related packages like pytorch, transformers, sentence-bert, langchain, sklearn, numpy, pandas and matplotlib.",
 		"English fluency."
 	]
 }
