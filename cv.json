@@ -4,22 +4,22 @@
 	"email":"F09946004@ntu.edu.tw",
 	"www":"https://www.linkedin.com/in/yu-shiang-huang-309108126/",
 	"bib":"yshuang",
-	"summary":"I am a Ph.D. candidate in Data Science at National Taiwan University. My research interests include retrieval-enhanced machine learning, natural language processing, and recommender systems, with a particular focus on their applications in the financial domain.",
+	"summary":"I am a Ph.D. candidate in Data Science at National Taiwan University. My research interests include retrieval-enhanced machine learning (REML), natural language processing (NLP), and recommender systems (RecSys), with a particular focus on their applications in the financial domain.",
 	"degrees":[
 		{
-			"degree":"PhD",
+			"degree":"Ph.D.",
 			"school":"National Taiwan University",
 			"discipline":"Data Science",
 			"year": "Since 2022"
 		},
 		{
-			"degree":"MS",
+			"degree":"M.S.",
 			"school":"National Taiwan University",
 			"discipline":"Data Science",
 			"year": "Admitted to the Ph.D. program in September 2022"
         },
 		{
-			"degree":"BS",
+			"degree":"B.S.",
 			"school":"National Taiwan University",
 			"discipline":"Accounting",
 			"year": 2020
@@ -32,7 +32,7 @@
 			"location":"Taipei, Taiwan",
 			"start-year":2020,
 			"start-month":"September",
-			"description":"- NLP in Finance Research: Designed task formulation and an end-to-end retrieval-augmented pipeline to extract important signals from financial reports.\\\\ - Recommendation Research: Designed experiments to validate the effectiveness of a new loss function compared to state-of-the-art (SOTA) recommendation methods.\\\\ - Recommendation Industry Cooperation: Researched multi-behavior algorithms for banner recommendation systems and deployed the developed model in a real-world system with millions of users.\\\\ - NLP Research: Analyzed the characteristics of financial annual reports and designed a new algorithm to classify sentence relations based on these findings. Leveraging the results, we conducted transfer learning in a self-supervised setting, and our paper was accepted by ACL 2023.\\\\ - NLP Industry Cooperation: Fine-tuned BERT with a Siamese network and contrastive loss to obtain sentence embeddings in legal data, building a retrieval system aimed at finding the most relevant internal regulations."
+			"description":"- REML Research: Designed task formulation and an end-to-end retrieval-augmented pipeline to extract important signals from financial reports.\\\\ - RecSys Research: Designed experiments to validate the effectiveness of a new loss function compared to state-of-the-art (SOTA) recommendation methods.\\\\ - RecSys Industry Cooperation: Researched multi-behavior algorithms for banner recommendation systems and deployed the developed model in a real-world system with millions of users.\\\\ - NLP Research: Analyzed the characteristics of financial annual reports and designed a new algorithm to classify sentence relations based on these findings. Leveraging the results, we conducted transfer learning in a self-supervised setting, and our paper was accepted by ACL 2023.\\\\ - NLP Industry Cooperation: Fine-tuned BERT with a Siamese network and contrastive loss to obtain sentence embeddings in legal data, building a retrieval system aimed at finding the most relevant internal regulations."
 		},		
 		{
 			"title":"Head Teaching Assistant, CSIE5043 Machine Learning",
@@ -125,15 +125,13 @@
             "lin2021nfinbert"
         ]
 	},
-    "awards":{
-        "competition":[
-            {
-                "title":"Legal Compliance Special Awards in 2021 Lawsnote Legal-Tech Hackathon",
-                "year": 2021,
-                "description":"Auxiliary System for Duty of Disclosure in Insurance Law: Designed the backend logistics of the system and leveraged modern sentence embedding models to aid in retrieving related cases based on users' queries."
-            }
-        ]
-    },  
+    "awards":[
+        {
+            "title":"Legal Compliance Special Award, Lawsnote Legal-Tech Hackathon",
+            "year": 2021,
+            "description":"Auxiliary System for Duty of Disclosure in Insurance Law: Designed the backend logistics of the system and leveraged modern sentence embedding models to aid in retrieving related cases based on users' queries."
+        }
+    ],  
 	"service":{
 		"organizational leadership":[
 			{
@@ -145,8 +143,8 @@
 		]
     },
 	"skills":[
-		"Extensive programming Python experience with machine learning projects on Unix platforms.",
-		"Extensive experience with machine learning related packages like pytorch, transformers, sentence-bert, langchain, sklearn, numpy, pandas and matplotlib.",
-		"English fluency."
+		"- Extensive programming experience with Python, particularly for machine learning projects on Unix platforms.\\\\",
+		"- Proficient in machine learning related packages such as PyTorch, Transformers, Sentence-BERT, LangChain, Scikit-learn, NumPy, Pandas and Matplotlib.\\\\",
+		"- Fluent in English and native proficiency in Traditional Chinese."
 	]
 }

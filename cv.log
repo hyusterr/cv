@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.12)  9 JUN 2024 02:00
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.12)  10 JUN 2024 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,27 +591,31 @@ Overfull \hbox (7.34pt too wide) in paragraph at lines 134--134
  []
 
 
+Overfull \hbox (5.04pt too wide) in paragraph at lines 152--152
+[]|||\TU/HoeflerText(0)/b/n/10 Recognition| 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
  []
 
 
-Overfull \hbox (9.07504pt too wide) in paragraph at lines 161--162
-\TU/HoeflerText(0)/m/n/10 Extensive experience with machine learning related pa
-ckages like pytorch, transformers, sentence-
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
+
  []
 
 (./cv.bbl) [3] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: D32F60F16DCEC6A2DAF082ED66FF47C4;601.
+(rerunfilecheck)             Checksum: 9AB4BB85AD04F1E9722053D837B7D733;699.
  ) 
 Here is how much of TeX's memory you used:
  11800 strings out of 476179
  235926 string characters out of 5809544
- 598152 words of memory out of 5000000
+ 598256 words of memory out of 5000000
  32414 multiletter control sequences out of 15000+600000
  469811 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,5n,77p,1023b,319s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,5n,77p,997b,319s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on cv.pdf (3 pages).

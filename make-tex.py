@@ -267,7 +267,7 @@ with open(sys.argv[1],"r") as fp:
         printPatents(data["patents"])
     print("\\vspace{1em}")
     if "awards" in data:
-        printRecognition(data["awards"],data["fellowships"])
+        printRecognition(data["awards"], None) #,data["fellowships"])
     if "service" in data:
         printService(data["service"])
     if "skills" in data:
