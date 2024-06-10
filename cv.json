@@ -125,10 +125,11 @@
             "lin2021nfinbert"
         ]
 	},
-    "award":{
+    "awards":{
         "competition":[
             {
-                "title":"Legal Compliance Special Awards",
+                "title":"Legal Compliance Special Awards in 2021 Lawsnote Legal-Tech Hackathon",
+                "year": 2021,
                 "description":"Auxiliary System for Duty of Disclosure in Insurance Law: Designed the backend logistics of the system and leveraged modern sentence embedding models to aid in retrieving related cases based on users' queries."
             }
         ]
@@ -136,7 +137,7 @@
 	"service":{
 		"organizational leadership":[
 			{
-				"venue":"ccClub, a Python Community",
+				"venue":"ccClub (a Python Community)",
 				"title":"Director and Teaching Assitant",
 				"year":[2018, 2019, 2020, 2021, 2022, 2023, 2024],
                 "description":"Python Data Analysis Workshop: Designed comprehensive materials and delivered engaging lectures on Python for data analysis, emphasizing practical examples, hands-on exercises, and key libraries.\\\\ - Computer Science Study Group: Led a team of 8 to organize a study schedule covering algorithms, object-oriented design, and machine learning for individuals with non-CS backgrounds and basic programming language skills.\\\\ - Programming Study Group: Designed programming assignments and provided technical advice based on students' ideas for their final projects in a 200-person study group.\\\\ - Google Machine Learning Crash Course: Addressed environmental problems and explained machine learning techniques to beginners, achieving an 88% satisfaction rate after the class."
