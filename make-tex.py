@@ -245,6 +245,9 @@ with open(sys.argv[1],"r") as fp:
     # print("\\authorwww{%s}"%data["www"])
     print("\\newcommand{\\authoremail}[0]{%s}"%data["email"])
     print("\\newcommand{\\authorwww}[0]{%s}"%data["www"])
+    print("\\newcommand{\\authornation}[0]{%s}"%data["nationality"])
+    print("\\newcommand{\\authoraddress}[0]{%s}"%data["address"])
+    print("\\newcommand{\\authorbirth}[0]{%s}"%data["birth"])
     print("\\begin{document}\n\\maketitle")
     if "summary" in data:
         printSummary(data["summary"])

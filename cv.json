@@ -3,6 +3,9 @@
 	"sur-name":"Huang",
 	"email":"F09946004@ntu.edu.tw",
 	"www":"https://www.linkedin.com/in/yu-shiang-huang-309108126/",
+    "address": "3F., No. 2, Aly. 21, Ln. 501, Zhonghe Rd., Yonghe Dist., New Taipei City 234021, Taiwan (R.O.C.)",
+    "birth":"Date of Birth: 04 November 1997",
+    "nationality": "Nationality: Taiwan (R.O.C.)",
 	"bib":"yshuang",
 	"summary":"I am a Ph.D. candidate in Data Science at National Taiwan University. My research interests include retrieval-enhanced machine learning (REML), natural language processing (NLP), and recommender systems (RecSys), with a particular focus on their applications in the financial domain.",
 	"degrees":[
