@@ -275,8 +275,10 @@ with open(sys.argv[1],"r") as fp:
         printService(data["service"])
     if "skills" in data:
         printSkills(data["skills"])
+    '''
     if not("references" in data):
         print("\\section{References}\\noindent \\emph{Available on request.}")
+    '''
     print("\\bibliographystyle{plain}")
     print("\\nobibliography{%s}\n\\end{document}"%data["bib"])
     with open("tmp.sed","w") as sfp:

@@ -29,6 +29,16 @@
 		}
 	],
 	"employment":[
+        {
+            "title":"Visiting Researcher",
+            "affiliation":"National Institute of Advanced Industrial Science and Technology (AIST)",
+            "location":"Tokyo, Japan",
+            "start-year":2025,
+            "start-month":"January",
+            "end-year":2025,
+            "end-month":"March",
+            "description":"- Market Commentary Generation: Developed a LLM pipeline to generate market commentary based on financial news and stock price data.\\\\ - Large Language Model Research: Conducted experiments to evaluate the deficiency of LLM and Deep Research on the proposed task."
+        },
 		{
 			"title":"Graduate Student Researcher",
 			"affiliation":"Academia Sinica",
@@ -119,10 +129,9 @@
 		}
 	],
 	"bibliography":{
-		"under-review":[
-            "huang2024dagcf"
-		],
 		"conference-papers":[
+            "wang2025surf",
+            "lin2025betag",
             "ju2023compare",
             "huang2023fish",
             "lin2021nfinbert"
