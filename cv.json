@@ -30,14 +30,14 @@
 	],
 	"employment":[
         {
-            "title":"Visiting Researcher",
+            "title":"Visiting Intern",
             "affiliation":"National Institute of Advanced Industrial Science and Technology (AIST)",
             "location":"Tokyo, Japan",
             "start-year":2025,
             "start-month":"January",
             "end-year":2025,
             "end-month":"March",
-            "description":"- Market Commentary Generation: Developed a LLM pipeline to generate market commentary based on financial news and stock price data.\\\\ - Large Language Model Research: Conducted experiments to evaluate the deficiency of LLM and Deep Research on the proposed task."
+            "description":"- Decision-oriented Text Evaluation: I worked with Chung-Chi Chen to develop a decision-oriented text evaluation method, which focuses on finding an alternative evaluation method for market commentary generation."
         },
 		{
 			"title":"Graduate Student Researcher",
@@ -135,6 +135,10 @@
             "ju2023compare",
             "huang2023fish",
             "lin2021nfinbert"
+        ],
+        "workshop-papers":[
+            "huang2025finlight",
+            "chiu2025financial"
         ]
 	},
     "awards":[
