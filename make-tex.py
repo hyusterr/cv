@@ -150,6 +150,7 @@ def printBibliography(X):
         print("\\vspace{\\baselineskip}\n\\noindent\\textbf{Thesis}\\\\")
         for x in X["theses"]:
             print("\\begin{verse}\n\\bibentry{%s}\n\\end{verse}"%x)
+
     if "workshop-papers" in X:
         print("\\vspace{\\baselineskip}\n\\noindent\\textbf{Workshop Papers}\\\\")
         for x in X["workshop-papers"]:
@@ -158,6 +159,11 @@ def printBibliography(X):
     #     print("\\vspace{\\baselineskip}\n\\noindent\\textbf{Tutorials}\\\\")
     #     for x in X["tutorials"]:
     #         print("\\begin{verse}\n\\bibentry{%s}\n\\end{verse}"%x)
+
+    if "preprints" in X:
+        print("\\vspace{\\baselineskip}\n\\noindent\\textbf{Preprints}\\\\")
+        for x in X["preprints"]:
+            print("\\begin{verse}\n\\bibentry{%s}\n\\end{verse}"%x)
     
 def printPatents(X):
     print("\\section{Patents}")

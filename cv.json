@@ -37,7 +37,7 @@
             "start-month":"January",
             "end-year":2025,
             "end-month":"March",
-            "description":"- Decision-oriented Text Evaluation: I worked with Chung-Chi Chen to develop a decision-oriented text evaluation method, which focuses on finding an alternative evaluation method for market commentary generation."
+            "description":"- Decision-oriented Text Evaluation: I worked with Dr. Chung-Chi Chen to develop a decision-oriented text evaluation method, which focuses on finding an alternative evaluation method for market commentary generation."
         },
 		{
 			"title":"Graduate Student Researcher",
@@ -139,6 +139,9 @@
         "workshop-papers":[
             "huang2025finlight",
             "chiu2025financial"
+        ],
+        "preprints": [
+            "huang2025decisionorientedtextevaluation"
         ]
 	},
     "awards":[
