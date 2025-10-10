@@ -130,6 +130,7 @@
 	],
 	"bibliography":{
 		"conference-papers":[
+            "chiu2025emnlp",
             "wang2025surf",
             "lin2025betag",
             "ju2023compare",
@@ -137,6 +138,8 @@
             "lin2021nfinbert"
         ],
         "workshop-papers":[
+            "huang2025fromsimilarity",
+            "huang2025finnue",
             "huang2025finlight",
             "chiu2025financial"
         ],
