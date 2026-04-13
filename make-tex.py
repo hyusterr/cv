@@ -123,7 +123,7 @@ def printBibliometrics(X):
     print("%s\\\\"%citationsPerArticle)
     print("%s\\\\"%h)
     print("\\end{tabular}\n\\end{center}")
-    # print("\\noindent\\begin{center}\\begin{tabular}{lccc}&\\href{http://dl.acm.org/author\\_page.cfm?id=%s}{\\textit{ACM Digital Library}}&\\href{https://www.scopus.com/authid/detail.uri?authorId=%s}{\\textit{Scopus}}&\\href{http://scholar.google.com/citations?user=%s}{\\textit{Google Scholar}}\\\\\n\\hline\narticles&&&\\\\\ncitations&&&\\\\\ncitations/article&&&\\\\\nh-index&&&\n\\end{tabular}\n\\end{center}"%(X["acm"],X["scopus"],X["google-scholar"]))
+    print("\\noindent\\begin{center}\\begin{tabular}{lccc}&\\href{http://dl.acm.org/author\\_page.cfm?id=%s}{\\textit{ACM Digital Library}}&\\href{https://www.scopus.com/authid/detail.uri?authorId=%s}{\\textit{Scopus}}&\\href{http://scholar.google.com/citations?user=%s}{\\textit{Google Scholar}}\\\\\n\\hline\narticles&&&\\\\\ncitations&&&\\\\\ncitations/article&&&\\\\\nh-index&&&\n\\end{tabular}\n\\end{center}"%(X["acm"],X["scopus"],X["google-scholar"]))
     
 def printBibliography(X):
     if ("under-review" in X) and (len(X["under-review"]) > 0):

@@ -129,6 +129,14 @@
 			"description":"- Teaching Material Creation at Department of Electronic Engineering: Self-studied advanced topics about kernel tricks in Support Vector Machines (SVM) in machine learning. Developed teaching slides with explainable examples beyond textbooks, aimed at making the theorems easier to understand."
 		}
 	],
+    "bibliometrics": {
+        "google-scholar": {
+            "id": "5w3AhiMAAAAJ",
+            "articles": 11,
+            "citations": 22,
+            "h": 3
+        }
+    },
 	"bibliography":{
 		"conference-papers":[
             "huang2026nash",
