@@ -4,45 +4,45 @@ The top-level auxiliary file: cv.aux
 The style file: plain.bst
 Database file #1: yshuang.bib
 Warning--empty year in lin2025betag
-You've used 11 entries,
+You've used 13 entries,
             2118 wiz_defined-function locations,
-            549 strings with 7012 characters,
-and the built_in function-call counts, 4408 in all, are:
-= -- 386
-> -- 313
-< -- 2
-+ -- 124
-- -- 112
-* -- 314
-:= -- 739
-add.period$ -- 38
-call.type$ -- 11
-change.case$ -- 89
+            557 strings with 7504 characters,
+and the built_in function-call counts, 5385 in all, are:
+= -- 474
+> -- 374
+< -- 3
++ -- 148
+- -- 134
+* -- 382
+:= -- 885
+add.period$ -- 43
+call.type$ -- 13
+change.case$ -- 106
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 146
-empty$ -- 312
-format.name$ -- 112
-if$ -- 910
+cite$ -- 14
+duplicate$ -- 180
+empty$ -- 383
+format.name$ -- 134
+if$ -- 1120
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 7
-newline$ -- 62
-num.names$ -- 22
-pop$ -- 131
+int.to.str$ -- 13
+missing$ -- 8
+newline$ -- 72
+num.names$ -- 26
+pop$ -- 156
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 93
 quote$ -- 0
-skip$ -- 100
+skip$ -- 135
 stack$ -- 0
-substring$ -- 128
-swap$ -- 37
-text.length$ -- 2
+substring$ -- 186
+swap$ -- 54
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
+type$ -- 52
 warning$ -- 1
-while$ -- 28
-width$ -- 13
-write$ -- 123
+while$ -- 35
+width$ -- 15
+write$ -- 142
 (There was 1 warning)

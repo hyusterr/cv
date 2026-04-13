@@ -4,9 +4,8 @@
 Wei-Ning Chiu, Yu-Hsiang Wang, Andy Hsiao, Yu-Shiang Huang, and Chuan-Ju Wang.
 \newblock Financial risk relation identification through dual-view adaptation.
 \newblock In {\em Proceedings of the 2025 Conference on Empirical Methods in
-  Natural Language Processing (EMNLP 2025)}, TBD, 2025. Association for
-  Computational Linguistics.
-\newblock Main Conference (Poster), To appear.
+  Natural Language Processing}, pages 26301--26311, 2025.
+\newblock Main Conference Poster.
 
 \bibitem{chiu2025financial}
 Wei-Ning Chiu, Yu-Hsiang Wang, Yi-Tai Hsiao, Yu-Shiang Huang, and Chuan-Ju
@@ -26,12 +25,19 @@ Ta-Wei Huang, Jia-Huei Ju, Yu-Shiang Huang, Cheng-Wei Lin, Yi-Shyuan Chiang,
   the Association for Computational Linguistics: System Demonstrations}, pages
   50--56, 2023.
 
+\bibitem{huang2026nash}
+Yu-Shiang Huang*, Yun-Yu Lee*, Tzu-Hsin Chou, Che Lin, and Chuan-Ju Wang.
+\newblock {NASH}: Numerically aware scoring heuristic for robust semantic
+  similarity.
+\newblock In {\em Findings of the Association for Computational Linguistics:
+  ACL 2026}, 2026.
+
 \bibitem{huang2025finnue}
 Yu-Shiang Huang, Yun-Yu Lee, Chou~Tzu Hsin, Che Lin, and Chuan-Ju Wang.
 \newblock Finnue: Exposing the risks of using {BERTS}core for numerical
   semantic evaluation in finance.
 \newblock In {\em CIKM 2025 Workshop on Advances in Financial AI: Innovations,
-  Risk, and Responsibility in the Era of LLMs}, 2025.
+  Risk, and Responsibility in the Era of LLMs}, November 2025.
 \newblock Non-archival workshop presentation.
 
 \bibitem{huang2025decisionorientedtextevaluation}
@@ -43,7 +49,7 @@ Yu-Shiang Huang, Chuan-Ju Wang, and Chung-Chi Chen.
 \newblock From similarity to consequences: Decision-oriented evaluation of
   market digest generation.
 \newblock Presented at the NeurIPS 2025 Workshop on Generative AI in Finance
-  (GenAI in Finance), September 2025.
+  (GenAI in Finance), December 2025.
 \newblock Non-archival workshop presentation.
 
 \bibitem{huang2025finlight}
@@ -75,6 +81,14 @@ Shao-En Lin, Brian Liu, Miao-Chen Chiang, Ming-Yi Hong, Yu-Shiang Huang,
 \newblock Betag: Behavior-enhanced item tagging with finetuned large language
   models.
 \newblock In {\em THE WEB CONFERENCE 2025}.
+
+\bibitem{roodman2026detectinginformationchannelscongressional}
+Benjamin~Pham Roodman, Eugene Sy, J.~Xavier~Atero Vázquez, Yu-Shiang Huang,
+  Che Lin, and Chaun-Ju Wang.
+\newblock Detecting information channels in congressional trading via temporal
+  graph learning.
+\newblock Presented at the ICLR 2026 Workshop on Advances in Financial AI,
+  2026.
 
 \bibitem{wang2025surf}
 Yu-Hsiang Wang, Wei-Ning Chiu, Yi-Tai Hsiao, Yu-Shiang Huang, Yi-Shyuan Chiang,

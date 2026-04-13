@@ -3,6 +3,7 @@
 	"sur-name":"Huang",
 	"email":"F09946004@ntu.edu.tw",
 	"www":"https://www.linkedin.com/in/yu-shiang-huang-309108126/",
+    "google-scholar":"https://scholar.google.com.tw/citations?user=5w3AhiMAAAAJ",
     "address": "3F., No. 2, Aly. 21, Ln. 501, Zhonghe Rd., Yonghe Dist., New Taipei City 234021, Taiwan (R.O.C.)",
     "birth":"Date of Birth: 04 November 1997",
     "nationality": "Nationality: Taiwan (R.O.C.)",
@@ -130,6 +131,7 @@
 	],
 	"bibliography":{
 		"conference-papers":[
+            "huang2026nash",
             "chiu2025emnlp",
             "wang2025surf",
             "lin2025betag",
@@ -138,6 +140,7 @@
             "lin2021nfinbert"
         ],
         "workshop-papers":[
+            "roodman2026detectinginformationchannelscongressional",
             "huang2025fromsimilarity",
             "huang2025finnue",
             "huang2025finlight",
@@ -148,6 +151,10 @@
         ]
 	},
     "awards":[
+        {
+            "title": "Student Travel Grant, GenAI in Finance Workshop at NeurIPS 2025",
+            "year": 2025
+        },
         {
             "title":"Legal Compliance Special Award, Lawsnote Legal-Tech Hackathon",
             "year": 2021,
