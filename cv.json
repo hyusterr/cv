@@ -31,6 +31,14 @@
 	],
 	"employment":[
         {
+    "title": "Visiting Researcher",
+    "affiliation": "National Institute of Informatics (NII)",
+    "location": "Tokyo, Japan",
+    "start-year": 2026,
+    "start-month": "July",
+    "description": "Selected as a recipient of the Graduate Students Study Abroad Program sponsored by the National Science and Technology Council (NSTC) to conduct 12 months of advanced research at NII."
+		},
+        {
             "title":"Visiting Intern",
             "affiliation":"National Institute of Advanced Industrial Science and Technology (AIST)",
             "location":"Tokyo, Japan",
@@ -159,6 +167,10 @@
         ]
 	},
     "awards":[
+        {
+            "title": "Graduate Students Study Abroad Program Grant, National Science and Technology Council",
+            "year": 2026
+        },
         {
             "title": "Student Travel Grant, GenAI in Finance Workshop at NeurIPS 2025",
             "year": 2025
